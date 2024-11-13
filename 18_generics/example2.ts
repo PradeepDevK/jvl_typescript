@@ -11,13 +11,13 @@ class Stack<T> {
     }
 }
 
-let numberStack = new Stack<number>();
-numberStack.push(1);
-numberStack.push(2);
-console.log(numberStack.pop());
+let numberstack = new Stack<number>();
+numberstack.push(1);
+numberstack.push(2);
+console.log(numberstack.pop());
 
 
-let stringStack = new Stack<string>();
-stringStack.push("Alice");
-stringStack.push("Bob");
-console.log(stringStack.pop());
+let stringstack = new Stack<string>();
+stringstack.push("Alice");
+stringstack.push("Bob");
+console.log(stringstack.pop());
